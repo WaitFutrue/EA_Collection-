@@ -162,6 +162,7 @@ int fputc(int c,FILE *f)
 {
     uint8_t ch[1]={c};
     HAL_UART_Transmit(&huart1,ch,1,0xFFFF);
+    //    HAL_UART_Transmit_DMA(&huart1,ch,0XFFFF);
     return c;
 }
 
