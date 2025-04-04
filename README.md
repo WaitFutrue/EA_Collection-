@@ -28,3 +28,9 @@ Altium Designer 等大型工程 → 只上传 PDF 版原理图 + STEP 模型
 - dev 分支——审核期版本，定期向 main 分支提交
 - feature_作者1昵称————此分支为贡献者分支，由大家维护并分享日常BUG或经验
 - feature_作者2昵称————此分支为贡献者分支，由大家维护并分享日常BUG或经验
+
+# 目前维护者🧰
+
+| Github Account | E-mail          |
+| -------------- | --------------- |
+| WaitFuture     | zyz.bill@qq.com |
