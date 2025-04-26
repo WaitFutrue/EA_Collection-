@@ -164,7 +164,7 @@ void printf_DMA(const char *format,...)
 {
     uint32_t length;
     va_list args;
-    uint8_t  temp=0;
+    //uint8_t  temp=0;
 
     va_start(args, format);
     length = vsnprintf((char*)_dbg_Buff, sizeof(_dbg_Buff)+1, (char*)format, args);
@@ -177,3 +177,4 @@ void printf_DMA(const char *format,...)
 }
 
 /* USER CODE END 1 */
+

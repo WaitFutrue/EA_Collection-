@@ -1,0 +1,10 @@
+//        //线性插值示例
+//       Servo_SetAngle(&myServo, 0.0f, 2000); // 2秒转到0度
+//       for(int i=0; i<100; i++) {
+//           Servo_Update(&myServo);
+//           HAL_Delay(20);
+//       }
+
+//       // 缓动函数示例
+//       Servo_SmoothMove(&myServo, 0.0f, 180.0f, 2000);// 2秒平滑转动到180°
+//       HAL_Delay(1000);

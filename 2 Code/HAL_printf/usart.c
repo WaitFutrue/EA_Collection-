@@ -25,8 +25,7 @@
 /* USER CODE END 0 */
 
 UART_HandleTypeDef huart1;
-DMA_HandleTypeDef hdma_usart1_rx;
-DMA_HandleTypeDef hdma_usart1_tx;
+
 
 /* USART1 init function */
 
@@ -162,7 +161,7 @@ int fputc(int c,FILE *f)
 {
     uint8_t ch[1]={c};
     HAL_UART_Transmit(&huart1,ch,1,0xFFFF);
-    //    HAL_UART_Transmit_DMA(&huart1,ch,0XFFFF);
+
     return c;
 }
 
